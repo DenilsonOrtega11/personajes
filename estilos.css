@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+a {
+    display: block;
+    text-align: center;
+    background-color: #cfe278;
+    color: #115deb;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    background-color: #0078d4;
+    color: #ffbf00;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid #ffbf00; /* Borde estilo caricatura */
+    border-radius: 10px; /* Esquinas redondeadas estilo caricatura */
+    font-size: 24px; /* Tamaño de fuente más grande */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    box-shadow: 5px 5px 10px #888888; /* Sombra estilo caricatura */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="iconos/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="iconos/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="iconos/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="iconos/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="iconos/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="iconos/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="iconos/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="iconos/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="iconos/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="iconos/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="iconos/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="iconos/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="iconos/favicon-16x16.png">
+<link rel="manifest" href="iconos/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="iconos/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos2.css">
+    <title>Personajes</title>
+</head>
+<body>
+
+
+    <div class="background-image"></div>
+    <div class="card">
+        <center><img src="img/Wiki-wordmark.webp" alt="300"></center>
+    <h3>Selecciona un personaje</h3>
+
+
+    <select name="" id="personajeSelect">
+        <option value="img/Peter_Griffin.webp">Peter Griffin</option>
+        <option value="img/Glenn.webp">Glenn Quagmire</option>
+        <option value="img/Meg_Griffin.webp">Meg Griffin</option>
+        <option value="img/Stewie_Griffin.webp">Stewie Griffin</option>
+        <option value="img/Brian_Griffin.webp">Brian Griffin</option>
+        <option value="img/Lois_Griffin.webp">Lois Griffin</option>
+        <option value="img/Eliza_Pinchley.webp">Eliza Pinchley</option>
+        <option value="img/Mono_Malvado.webp">Mono Malvado</option>
+        <option value="img/Ernie.webp">Ernie el Pollo Gigante</option>
+        <option value="img/Chris_Griffin.webp">Chris Griffin</option>
+    </select>
+
+    
+
+    <div id="imagenContainer">
+        <img id="personajeImagen" src="img/Wiki-wordmark.webp" alt="Imagen del personaje">
+    </div>
+
+    <select name="" id="variantes">
+        <option value="Selecciona">Selecciona</option>
+    </select>
+
+    <div id="imagenContainer2">
+        <button type="button" id="pestana"  onclick="newContent();"><img id="personajeImagen2" src="img/Wiki-wordmark.webp" alt="Imagen del personaje"></button>
+        
+    </div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
